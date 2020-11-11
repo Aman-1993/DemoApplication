@@ -13,6 +13,6 @@ public class HealthController {
 
     @GetMapping("/")
     public String ping() {
-        return "<h1>Hello</h1>";
+        return "<h1>Hello Staging</h1>";
     }
 }
